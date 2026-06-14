@@ -1,53 +1,54 @@
 const productData = {
-  'inertia-nano': {
+  'eira-0.1': {
     // ============= BASIC METADATA =============
     metadata: {
-      name: 'Inertia Nano',
+      name: 'Eira 0.1',
       description: 'Revolutionary nanosatellite platform designed for research missions, educational purposes, and commercial applications with advanced miniaturized systems for space exploration.',
       icon: 'ri-rocket-2-line',
+      image: 'image/img4.jpg',
       category: 'Nanosatellite Systems',
     },
 
     contentSections: [
       {
         title: 'Advanced Nano Technology',
-        content: 'Our Inertia Nano represents breakthrough miniaturization technology, packing advanced space-grade systems into a compact CubeSat format. With precision engineering and rigorous testing protocols, this nanosatellite delivers exceptional performance for critical research and commercial missions.',
+        content: 'Our Eira 0.1 represents breakthrough miniaturization technology, packing advanced space-grade systems into a compact CubeSat format. With precision engineering and rigorous testing protocols, this nanosatellite delivers exceptional performance for critical research and commercial missions.',
         type: 'content-image',
-        image: 'assets/rocket_middle2.png'
+         image: 'image/img4.jpg',
       },
       {
         title: 'Nano Mission Operations',
-        content: 'Discover how Inertia Nano enables breakthrough nanosatellite missions through innovative design and autonomous operation. This comprehensive system provides reliable performance in Low Earth Orbit for educational, research, and commercial applications.',
+        content: 'Discover how Eira 0.1 enables breakthrough nanosatellite missions through innovative design and autonomous operation. This comprehensive system provides reliable performance in Low Earth Orbit for educational, research, and commercial applications.',
         type: 'content-video',
         video: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
       },
       {
         title: 'CubeSat Integration Testing',
-        content: 'Watch comprehensive CubeSat testing procedures and system integration processes for Inertia Nano. This detailed video demonstrates our rigorous quality assurance protocols, environmental testing, and performance validation for nanosatellite missions.',
+        content: 'Watch comprehensive CubeSat testing procedures and system integration processes for Eira 0.1. This detailed video demonstrates our rigorous quality assurance protocols, environmental testing, and performance validation for nanosatellite missions.',
         type: 'content-video',
         video: 'https://www.youtube.com/embed/9bZkp7q19f0'
       },
       {
         title: 'Nano Technical Specifications',
-        content: 'Comprehensive technical specifications and operational guidelines for Inertia Nano. Access detailed documentation covering CubeSat architecture, payload integration, power systems, and mission planning requirements for nanosatellite operations.',
+        content: 'Comprehensive technical specifications and operational guidelines for Eira 0.1. Access detailed documentation covering CubeSat architecture, payload integration, power systems, and mission planning requirements for nanosatellite operations.',
         type: 'content-document',
-        document: 'assets/documents/inertia-nano-technical-specs.pdf'
+        document: 'assets/documents/eira-0.1-technical-specs.pdf'
       },
       {
         title: 'CubeSat Mission Planning',
-        content: 'Complete CubeSat mission planning documentation for Inertia Nano including orbital mechanics calculations for LEO missions, payload integration specifications, launch requirements, and operational procedures for nanosatellite deployments.',
+        content: 'Complete CubeSat mission planning documentation for Eira 0.1 including orbital mechanics calculations for LEO missions, payload integration specifications, launch requirements, and operational procedures for nanosatellite deployments.',
         type: 'content-document',
-        document: 'assets/documents/inertia-nano-mission-planning.pdf'
+        document: 'assets/documents/eira-0.1-mission-planning.pdf'
       },
       {
         title: 'Nano Safety & Compliance',
-        content: 'Comprehensive safety protocols and regulatory compliance documentation for Inertia Nano. Includes CubeSat design standards compliance, safety procedures, risk assessment guidelines, and space debris mitigation protocols.',
+        content: 'Comprehensive safety protocols and regulatory compliance documentation for Eira 0.1. Includes CubeSat design standards compliance, safety procedures, risk assessment guidelines, and space debris mitigation protocols.',
         type: 'content-document',
-        document: 'assets/documents/inertia-nano-safety-compliance.pdf'
+        document: 'assets/documents/eira-0.1-safety-compliance.pdf'
       },
       {
         title: 'Nanosatellite Innovation Impact',
-        content: 'Inertia Nano is revolutionizing access to space through cost-effective nanosatellite technology. Our CubeSat platform democratizes space exploration, enabling universities, research institutions, and small companies to conduct meaningful space missions while advancing our understanding of Earth and space sciences.',
+        content: 'Eira 0.1 is revolutionizing access to space through cost-effective nanosatellite technology. Our CubeSat platform democratizes space exploration, enabling universities, research institutions, and small companies to conduct meaningful space missions while advancing our understanding of Earth and space sciences.',
         type: 'content-only'
       }
     ],
@@ -55,11 +56,12 @@ const productData = {
 
   },
   
-  'inertia': {
-    name: 'Inertia',
+  'eira-0.2': {
+    name: 'Eira 0.2',
     subtitle: 'Mid-Range Satellite Platform',
     description: 'Advanced mid-range satellite system with enhanced communication capabilities, scientific instrumentation, and extended mission duration for comprehensive space missions.',
     icon: 'ri-satellite-line',
+    image: 'image/img6.jpg',
     category: 'Small Satellite Systems',
     
     contentSections: [
@@ -67,7 +69,7 @@ const productData = {
         title: 'Advanced Satellite Technology',
         content: 'Our Inertia satellite represents cutting-edge mid-range satellite technology, incorporating advanced communication systems and scientific instrumentation. With robust engineering and comprehensive testing protocols, this platform delivers exceptional performance for extended space missions.',
         type: 'content-image',
-        image: 'assets/img/bock_ai_img1.jpg'
+        image: 'image/img6.jpg',
       },
       {
         title: 'Extended Mission Operations',
@@ -109,11 +111,12 @@ const productData = {
    
   },
   
-  'inertia-mega': {
-    name: 'Inertia Mega',
+  'eira-1': {
+    name: 'Eira 1',
     subtitle: 'Large-Scale Space Platform',
     description: 'Heavy-duty satellite platform with advanced propulsion systems and deep space exploration capabilities for ambitious interplanetary missions.',
     icon: 'ri-space-ship-line',
+    image: 'image/img3.jpg',
     category: 'Large Satellite Systems',
     
     contentSections: [
@@ -121,7 +124,7 @@ const productData = {
         title: 'Deep Space Technology',
         content: 'Our Inertia Mega represents the pinnacle of large-scale satellite engineering, incorporating advanced propulsion systems and deep space exploration capabilities. With cutting-edge technology and extensive testing, this platform enables ambitious interplanetary missions.',
         type: 'content-image',
-        image: 'assets/img/bock_automotive_img1.jpg'
+        image: 'image/img3.jpg',
       },
       {
         title: 'Interplanetary Mission Capabilities',
@@ -163,11 +166,12 @@ const productData = {
  
   },
   
-  'momentum': {
-    name: 'Momentum',
+  'tryphonex': {
+    name: 'Tryphonex',
     subtitle: 'High-Performance Propulsion',
     description: 'Advanced propulsion system designed for efficient orbital transfers, station-keeping, and interplanetary missions with innovative fuel management technology.',
     icon: 'ri-rocket-line',
+    image: 'image/img1.jpg',
     category: 'Propulsion Systems',
     
     contentSections: [
@@ -175,7 +179,7 @@ const productData = {
         title: 'Advanced Propulsion Technology',
         content: 'Our Momentum propulsion system represents revolutionary advancement in space propulsion technology, featuring high-efficiency engines and innovative fuel management. With precision engineering and extensive testing, this system delivers exceptional performance for complex space missions.',
         type: 'content-image',
-        image: 'assets/img/bock_chain_img1.jpg'
+         image: 'image/img1.jpg',
       },
       {
         title: 'Propulsion System Operations',
